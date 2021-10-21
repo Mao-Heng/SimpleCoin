@@ -23,7 +23,7 @@ SimpleCoin requires Flask, ecdsa, and requests. You can install them easily by r
 Then you have 2 options:
 
 - Run ```miner.py``` to become a node and start mining
-- Run ```wallet.py``` to become a user and send transactions (to send transactions you must run a node: in other words, you must running ```miner.py```)
+- Run ```wallet.py``` to become a user and send transactions (to send transactions you must run a node; in other words, you must running ```miner.py```)
 
 > Important: DO NOT run it in the python IDLE, run it in your console. The ```miner.py``` uses parallel processing that doesn't work in the python IDLE.
 
