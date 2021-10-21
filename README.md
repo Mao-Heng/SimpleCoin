@@ -5,8 +5,6 @@
 
 Just a really simple, insecure and incomplete implementation of a blockchain for a cryptocurrency made in Python. The goal of this project is to make a working blockchain currency, keeping it as simple as possible and to be used as educational material.
 
-test change1
-
 >This project is just being made for fun. If you want to make your own cryptocurrency you should probably take a look at the [Bitcoin Repository](https://github.com/bitcoin/bitcoin).
 
 
@@ -20,16 +18,12 @@ You can find more information in the original [Bitcoin Paper](https://bitcoin.or
 
 ## How to run it
 
-First, install ```requirements.txt```.
-
-```
-pip install -r requirements.txt
-```
+SimpleCoin requires Flask, ecdsa, and requests. You can install them easily by running the command ```pip install -r requirements.txt```
 
 Then you have 2 options:
 
 - Run ```miner.py``` to become a node and start mining
-- Run ```wallet.py``` to become a user and send transactions (to send transactions you must run a node, in other words, you must run ```miner.py``` too)
+- Run ```wallet.py``` to become a user and send transactions (to send transactions you must run a node: in other words, you must running ```miner.py```)
 
 > Important: DO NOT run it in the python IDLE, run it in your console. The ```miner.py``` uses parallel processing that doesn't work in the python IDLE.
 
