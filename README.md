@@ -51,7 +51,7 @@ This file is probably the most important. Running it will create a node (like a 
 ### Wallet.py
 
 This file is for those who don't want to be nodes but simple users. Running this file allows you to generate a new address, send coins and check your transaction history (keep in mind that if you are running this in a local server, you will need a "miner" to process your transaction).
-When creating a wallet address, a new file will be generated with all your security credentials. You are supposed to keep it safe.
+When creating a wallet address, a new file will be generated with all your security credentials. 
 
 ![wallet](https://k60.kn3.net/6/F/E/3/8/2/887.png)
 
