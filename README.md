@@ -18,7 +18,7 @@ You can find more information in the original [Bitcoin Paper](https://bitcoin.or
 
 ## How to run it
 
-SimpleCoin requires Flask, ecdsa, and requests. You can install them easily by running the command ```pip install -r requirements.txt```
+SimpleCoin requires Flask, ecdsa, and requests. You can install them easily by running ```pip install -r requirements.txt```
 
 Then you have 2 options:
 
